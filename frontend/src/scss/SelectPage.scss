@@ -1,0 +1,38 @@
+.SelectPage{
+  text-align: center;
+  h3{
+    margin-top: 40px;
+    font-size: 30px;
+  }
+  h3,p{
+    margin-bottom: 30px;
+  }
+  p{
+    color: orange;
+  }
+  ul,li{
+    list-style: none;
+  } 
+  
+  ul{
+    margin-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    li{
+      width: 80px;
+      margin: 10px;
+      height: 40px;
+      border:1px solid;
+      text-align: center;
+      line-height: 40px;
+    }
+    .active{
+      background-color: orange;
+      color: #fff;
+    }
+  }
+  button{
+    margin-top: 210px;
+    font-size: 20px;
+  }
+}

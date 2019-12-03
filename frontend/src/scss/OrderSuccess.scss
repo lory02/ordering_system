@@ -1,0 +1,16 @@
+.OrderSuccess{
+  padding: 20px;
+  width: 300px;
+  border :1px solid lightgray;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  box-shadow: 5px 1px 20px lightgray;
+  div{
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}

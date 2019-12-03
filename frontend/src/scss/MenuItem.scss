@@ -1,0 +1,54 @@
+.MenuItem{
+  border:1px solid lightgray;
+  margin: 5px; 
+  overflow: hidden;
+  border-bottom: 1px solid rgb(161, 160, 160);
+  display: flex;
+  align-items: center;  
+  padding: 5px 12px;
+  div{
+    float: left;
+    display: flex;
+    align-items: center;
+
+  }
+  div:last-child{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    button{
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      outline: none;
+      border: 1px solid;
+      background-color: orange;
+      color: #fff;
+      margin: 0px 10px;
+    }
+    button:last-child{
+      margin-right: 0px;
+    }
+  }
+ img{
+   float: left;
+   width: 90px;
+   height: 90px;
+   border: 2px solid lightgray;
+   margin: 0 10px;
+ }
+ .ItemInfo{
+  width: 220px;
+  padding-left: 20px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  p{
+    margin: 0;
+  }
+  p.itemPrice{
+    color: red;
+  }
+}
+}

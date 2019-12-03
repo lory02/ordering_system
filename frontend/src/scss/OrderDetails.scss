@@ -1,0 +1,39 @@
+.OrderDetails{
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  padding: 12px;
+  position: absolute;
+  z-index: 4;
+  background-color: #fff;
+  left: 50%;
+  transform: translate(-50%);
+  top: 100px;
+  table {
+    th{
+      color: rgba(0, 0, 0, 0.671);
+    }
+    label{
+      box-sizing: border-box;
+      display:inline-block;
+      border:1px solid #a3a2a2;
+      width: 20px;
+      height: 20px;
+      input[type='checkbox']{
+        opacity: 0;
+      }
+    }
+    label.active{
+      background-color: rgb(24,144,255);
+      border: 5px solid #fff;
+    }
+  }
+  img{
+    width: 80px;
+    height: 80px;
+  }
+  td,th{
+    padding: 10px 16px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+}

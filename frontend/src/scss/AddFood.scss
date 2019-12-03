@@ -1,0 +1,98 @@
+.AddFood{
+  form {
+    display: flex;
+    flex-direction: column;
+    div{
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px;
+    }
+  }
+  button{
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    line-height: 1.5;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+    cursor: pointer;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    user-select: none;
+    touch-action: manipulation;
+    height: 32px;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  button:hover{
+    background-color: rgb(64,169,255);
+  }
+  input[type='text']{
+    width: 200px;
+    box-sizing: border-box;
+    margin: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    height: 32px;
+    padding: 4px 11px;
+    color: rgba(0,0,0,0.65);
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    transition: all .3s;
+    margin-left: 30px;
+  }
+  textarea{
+    border: 1px solid #d9d9d9;
+    margin-left: 30px;
+    width: 400px;
+    height: 150px;
+  }
+  a{
+    position: relative;
+    display: inline-block;
+    background: #fff;
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 4px;
+    padding: 4px 12px;
+    overflow: hidden;
+    color: rgb(145, 143, 143);
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 30px;
+    margin-left: 30px;
+    padding: 0 30px;
+    height: 30px;
+  }
+  a:hover{
+    color: #40a9ff;
+    background-color: #fff;
+    border-color: #40a9ff;
+    text-decoration: none;
+  }
+  input[type='file'] {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+  }
+  button{
+    width: 200px;
+    margin-left: 60px;
+  }
+}
